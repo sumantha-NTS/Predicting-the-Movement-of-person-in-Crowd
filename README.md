@@ -1,10 +1,10 @@
-# Predicting-the-Movement-of-person-in-Crowd-
+# Predicting-the-Movement-of-person-in-Crowd
 Predicting the movement of a person in the crowd based on the movement of the crowd in particular timestamp.
 
 ## Objective:
 
 ## Dataset:
-Dataset is prepared by considering the 5000 people locations which is represented in *Map.html*. 
+Dataset is prepared by considering the latitude and longitude of the 5000 people locations which is represented in *Map.html*. Also the scatter points of the locations are visualized in the **.ipnb** file.
 
 ## Methodology:
 
