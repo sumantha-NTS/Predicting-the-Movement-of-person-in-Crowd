@@ -11,10 +11,11 @@ Dataset is prepared by considering the latitude and longitude of the 5000 people
 
 **Second Step:** Timestamp data of 960 people from the crowd is considered to understand the movement of the crowd. Three level timestamp data is considered for the study which is presented in **.ipnb** file. The timestamp is matched with the cluster points.
 
-**Third Step:** For better understanding of the movement and cluster dependencies, **Long Short Term Memory (LSTM)** model is created as LSTM's are better in understanding the sequence data and fitted with the timestamp data of 960 people which represents the location of person, when the person is moved from one point to other during timestamp-0 to timestamp-2.
+**Third Step:** For better understanding of the movement and cluster dependencies, **Long Short Term Memory (LSTM)** model is created as LSTM's are better in understanding the sequence data and fitted with the timestamp data of 960 people which represents the location of person, when the person is moved from one point to other during timestamp-0 to timestamp-2.\
+
 
 ## Prediction:
-Location of the person need to be matched with the cluster depending upon the distance and density of the cluster which represents that the there is high probability that person will move to place which is nearer and has high density.
+Location of the person need to be matched with the cluster depending upon the distance and density of the cluster which represents that the there is high probability that person will move to place which is nearer and has high density.\
 Next location of the person is predicted with the help of **Long Short Term Memory (LSTM)** model which take the input from timestamp data of the crowd.
 
 # Reference:
