@@ -4,7 +4,7 @@ Predicting the movement of a person in the crowd based on the movement of the cr
 ## Objective:
 
 ## Dataset:
-Dataset is prepared by considering the latitude and longitude of the 5000 people locations which is represented in *Map.html*. Also the scatter points of the locations are visualized in the **.ipnb** file.
+Dataset is prepared by considering the latitude and longitude of the 5000 people locations which is represented in *Map.html*. Also the scatter points of the locations are visualized in the **Analysis.ipnb** file.
 
 ## Methodology:
 
