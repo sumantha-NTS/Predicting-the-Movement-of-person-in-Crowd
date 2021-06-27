@@ -11,7 +11,10 @@ Dataset is prepared by considering the latitude and longitude of the 5000 people
 Methodology is the methods/approachs followed to achieve the objective of the project \
 **First Step:** K-Means clustering is performed on the dataset to understand the distribution of data. After performing for **k** cluster, i got the best clustering for **16 clusters** same has been explained in **.ipnb**attached file.
 
-**Second Step:** Timestamp data of 960 people from the crowd is considered to understand the movement of the crowd. Three level timestamp data is considered for the study which is presented in **.ipnb** file. The timestamp is matched with the cluster points.
+**Second Step:** Timestamp data of 960 people from the crowd is considered to understand the movement of the crowd. **Three level timestamp** data is considered for the study which is presented in **.ipnb** file. The timestamp is matched with the cluster points.
+1. 1st level timestamp : This is the initial location of the person at timestamp-0.
+2. 2nd level timestamp : New location to which person moved at timestamp-1.
+3. 3rd level timestamp : New location to which person moved from previous location (2nd level timestamp location) at timestamp-2.
 
 **Third Step:** For better understanding of the movement and cluster dependencies, **Long Short Term Memory (LSTM)** model is created as LSTM's are better in understanding the sequence data and fitted with the timestamp data of 960 people which represents the location of person, when the person is moved from one point to other during timestamp-0 to timestamp-2.
 
