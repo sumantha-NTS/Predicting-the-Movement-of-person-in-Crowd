@@ -27,3 +27,4 @@ Next location of the person is predicted with the help of **Long Short Term Memo
 1. https://www.researchgate.net/publication/330484606_Forecasting_Pedestrian_Movements_Using_Recurrent_Neural_Networks_An_Application_of_Crowd_Monitoring_Data
 2. https://medium.com/decathlondevelopers/building-a-rnn-recommendation-engine-with-tensorflow-505644aa9ff3
 3. https://en.wikipedia.org/wiki/Crowd_analysis
+4. https://towardsdatascience.com/markov-models-and-markov-chains-explained-in-real-life-probabilistic-workout-routine-65e47b5c9a73
